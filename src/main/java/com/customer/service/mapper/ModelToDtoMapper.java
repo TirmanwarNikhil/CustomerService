@@ -2,10 +2,12 @@ package com.customer.service.mapper;
 
 import com.customer.service.dto.CustomerDto;
 import com.customer.service.model.Customer;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ModelToDtoMapper {
 
 

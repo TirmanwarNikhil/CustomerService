@@ -116,7 +116,7 @@ public class CustomerController {
 	}
 
 
-
+/*
 
 	@ApiOperation(value = "Update Customer in the System ", response = CustomerResponse.class, tags = "updateCustomer")
 	@ApiResponses(value = {
@@ -155,5 +155,5 @@ public class CustomerController {
 
 		return new ResponseEntity<Boolean>(result, HttpStatus.OK);
 
-	}
+	}*/
 }
